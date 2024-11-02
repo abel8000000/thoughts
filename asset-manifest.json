@@ -1,16 +1,22 @@
 {
   "files": {
-    "main.css": "/thoughts/static/css/main.f855e6bc.css",
-    "main.js": "/thoughts/static/js/main.dcf538e3.js",
+    "main.css": "/thoughts/static/css/main.f9084e1f.css",
+    "main.js": "/thoughts/static/js/main.55c09df0.js",
     "static/js/453.a234e9e5.chunk.js": "/thoughts/static/js/453.a234e9e5.chunk.js",
-    "static/media/logo.svg": "/thoughts/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/background.jpg": "/thoughts/static/media/background.1e4a5589ce4a3553a028.jpg",
+    "static/media/Raleway-VariableFont_wght.ttf": "/thoughts/static/media/Raleway-VariableFont_wght.d8040b0cc740dda7550a.ttf",
+    "static/media/Play-Bold.ttf": "/thoughts/static/media/Play-Bold.b78f3be6adabf73cde7f.ttf",
+    "static/media/cover.jpg": "/thoughts/static/media/cover.bd4fe5710a094b878662.jpg",
+    "static/media/NEUROPOL.ttf": "/thoughts/static/media/NEUROPOL.da56b5bd971d7cedd68e.ttf",
     "index.html": "/thoughts/index.html",
-    "main.f855e6bc.css.map": "/thoughts/static/css/main.f855e6bc.css.map",
-    "main.dcf538e3.js.map": "/thoughts/static/js/main.dcf538e3.js.map",
+    "static/media/To Pimp a Butterfly.md": "/thoughts/static/media/To Pimp a Butterfly.64aa042745bb07b88731.md",
+    "static/media/IGOR.md": "/thoughts/static/media/IGOR.adb893e8698ddf61b14f.md",
+    "main.f9084e1f.css.map": "/thoughts/static/css/main.f9084e1f.css.map",
+    "main.55c09df0.js.map": "/thoughts/static/js/main.55c09df0.js.map",
     "453.a234e9e5.chunk.js.map": "/thoughts/static/js/453.a234e9e5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.dcf538e3.js"
+    "static/css/main.f9084e1f.css",
+    "static/js/main.55c09df0.js"
   ]
 }
