@@ -1,0 +1,40 @@
+#music {
+  padding: 10px;
+}
+
+#music h2 {
+  margin: 0 0 2rem 0;
+}
+
+.album-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(175px, 1fr)); /* Increase the min size of columns */
+  gap: 20px; /* Adjust the gap between grid items */
+  list-style: none;
+  padding: 0;
+}
+
+.album-item {
+  text-align: center;
+}
+
+.album-item img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.album-item p {
+  margin-top: 10px;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.anchor {
+  color: rgb(225, 255, 225);
+  text-decoration: none;
+}
+
+.anchor:hover {
+  text-decoration: underline;
+}

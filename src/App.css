@@ -1,38 +1,129 @@
+@font-face {
+  font-family: 'Neuropol';
+  src: url(/public/fonts/NEUROPOL.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('/public/fonts/Raleway-VariableFont_wght.ttf') format('ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Play';
+  src: url('/public/fonts/Play-Bold.ttf') format('ttf');
+  font-weight: 700;
+  font-style: normal;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  font-family: 'Raleway', monospace;
+  background-image: url('/public/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: rgb(225, 255, 225);
+  display: flex;
+  flex-direction: column;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 0px 30px;
 }
 
-.App-link {
-  color: #61dafb;
+#title {
+  font-size: 1.5em;
+  text-align: start;
+  font-family: 'Neuropol', sans-serif;
+  color: #b1d1b1;
+  transition: text-shadow 0.2s ease-in-out;
+  text-decoration: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+#title:hover {
+  text-shadow: 0 0 3px #b1d1b1, 0 0 6px #b1d1b1, 0 0 9px #b1d1b1;
+}
+
+.anchor {
+  color: inherit;
+  text-decoration: none;
+}
+
+.anchor:hover {
+  text-decoration: underline;
+}
+
+#tabs {
+  width: calc(80% + 44px);
+  display: flex;
+  align-self: center;
+  justify-content: start;
+}
+
+.tab {
+  position: relative;
+  padding: 10px 50px;
+  color: inherit;
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.3);
+  transition: background-color 0.2s ease-in-out;
+  margin-right: -10px;
+  clip-path: polygon(10% 0, 90% 0, 100% 100%, 0% 100%);
+  border-bottom: none;
+}
+
+.tab.active {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-bottom: none;
+  outline: rgb(255, 255, 255) solid 1px;
+}
+
+main {
+  align-self: center;
+  width: 80%;
+  height: 100%;
+  overflow-y: auto;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 2px solid #203f1f;
+}
+
+/* Scrollbar Styling */
+main::-webkit-scrollbar {
+  width: 8px;
+}
+
+main::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+main::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 4px;
+}
+
+main::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.7);
+}
+
+
+@media (max-width: 700px) {
+  #title {
+    font-size: 1em;
   }
 }
