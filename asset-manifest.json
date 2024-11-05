@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/thoughts/static/css/main.f9084e1f.css",
-    "main.js": "/thoughts/static/js/main.55c09df0.js",
+    "main.css": "/thoughts/static/css/main.0462513c.css",
+    "main.js": "/thoughts/static/js/main.84ffc370.js",
     "static/js/453.a234e9e5.chunk.js": "/thoughts/static/js/453.a234e9e5.chunk.js",
     "static/media/background.jpg": "/thoughts/static/media/background.1e4a5589ce4a3553a028.jpg",
     "static/media/Raleway-VariableFont_wght.ttf": "/thoughts/static/media/Raleway-VariableFont_wght.d8040b0cc740dda7550a.ttf",
     "static/media/Play-Bold.ttf": "/thoughts/static/media/Play-Bold.b78f3be6adabf73cde7f.ttf",
     "static/media/cover.jpg": "/thoughts/static/media/cover.bd4fe5710a094b878662.jpg",
     "static/media/NEUROPOL.ttf": "/thoughts/static/media/NEUROPOL.da56b5bd971d7cedd68e.ttf",
+    "static/media/To Pimp a Butterfly.md": "/thoughts/static/media/To Pimp a Butterfly.24d1d34e5a3fad62b95b.md",
+    "static/media/IGOR.md": "/thoughts/static/media/IGOR.f919a24ef12c47693b5b.md",
     "index.html": "/thoughts/index.html",
-    "static/media/To Pimp a Butterfly.md": "/thoughts/static/media/To Pimp a Butterfly.64aa042745bb07b88731.md",
-    "static/media/IGOR.md": "/thoughts/static/media/IGOR.adb893e8698ddf61b14f.md",
-    "main.f9084e1f.css.map": "/thoughts/static/css/main.f9084e1f.css.map",
-    "main.55c09df0.js.map": "/thoughts/static/js/main.55c09df0.js.map",
+    "main.0462513c.css.map": "/thoughts/static/css/main.0462513c.css.map",
+    "main.84ffc370.js.map": "/thoughts/static/js/main.84ffc370.js.map",
     "453.a234e9e5.chunk.js.map": "/thoughts/static/js/453.a234e9e5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f9084e1f.css",
-    "static/js/main.55c09df0.js"
+    "static/css/main.0462513c.css",
+    "static/js/main.84ffc370.js"
   ]
 }

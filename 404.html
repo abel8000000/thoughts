@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="refresh" content="0; url=/%PUBLIC_URL%/index.html" />
+    <script>
+      // This script ensures that the correct URL is preserved
+      // after the redirect to index.html
+      var pathname = window.location.pathname;
+      var search = window.location.search;
+      var hash = window.location.hash;
+      window.location.replace('/thoughts' + pathname + search + hash);
+    </script>
+  </head>
+  <body></body>
+</html>
