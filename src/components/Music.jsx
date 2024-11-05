@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
+import rehypeRaw from 'rehype-raw';
 import '../styles/Music.css';
 
-// Dynamically require all markdown files and cover images from the public/music directory
+
 const markdownFiles = require.context('../../public/music', true, /\.md$/);
 const coverImages = require.context('../../public/music', true, /cover\.(jpg|jpeg|png)$/);
 
@@ -42,20 +43,21 @@ function Music() {
   return (
     <div id="music">
       {album ? (
-        <ReactMarkdown>{content}</ReactMarkdown>
+        <ReactMarkdown rehypePlugins={[rehypeRaw]}>{content}</ReactMarkdown>
       ) : (
         <div>
-          <h2>Albums</h2>
+          <h1 id='albums-title'>Albums</h1>
           <ul className="album-grid">
             {albums.map((album) => (
               <li key={album.name} className="album-item">
-                <Link to={`/music/${album.name}`}>
+                <Link to={`/music/${album.name}/`}>
                   {album.cover && <img src={album.cover} alt={`${album.title} cover`} width="100" />}
                   <p className='anchor'>{album.title}</p>
                 </Link>
               </li>
             ))}
           </ul>
+          <div className="more-on-the-way">don't worry, more on the way</div>
         </div>
       )}
     </div>

@@ -1,15 +1,16 @@
 #music {
   padding: 10px;
+  position: relative;
 }
 
-#music h2 {
+#albums-title {
   margin: 0 0 2rem 0;
 }
 
 .album-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(175px, 1fr)); /* Increase the min size of columns */
-  gap: 20px; /* Adjust the gap between grid items */
+  grid-template-columns: repeat(auto-fill, minmax(175px, 1fr));
+  gap: 20px;
   list-style: none;
   padding: 0;
 }
@@ -37,4 +38,29 @@
 
 .anchor:hover {
   text-decoration: underline;
+}
+
+.album-page-title {
+  margin: 0 0 1rem 0;
+  text-align: center;
+}
+
+.album-page-author {
+  margin: 0 0 2rem 0;
+  text-align: center;
+}
+
+.album-page-video {
+  display: block;
+  margin: 0 auto;
+  max-width: 15rem;
+  max-height: 15rem;
+}
+
+.more-on-the-way {
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+  font-size: 1rem;
+  color: rgb(62, 110, 62);
 }
