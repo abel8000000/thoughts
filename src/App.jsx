@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Link to="//" id='title'><h1>abel's thoughts</h1></Link>
+        <Link to="/" id='title'><h1>abel's thoughts</h1></Link>
       </header>
       <div id='tabs'>
         <Link to="/music/" className={`tab ${location.pathname.startsWith('/music') ? 'active' : ''}`}>music</Link>
