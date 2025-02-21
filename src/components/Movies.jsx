@@ -4,7 +4,7 @@ function Movies() {
   return (
     <div id="movies">
       <h2>Movies</h2>
-      <p>Here are my thoughts on movies...</p>
+      <p>Movies coming soon...</p>
     </div>
   );
 }

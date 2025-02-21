@@ -15,7 +15,7 @@ const Homescreen = () => {
                     <>
                         <h2 id='welcome-text'>welcome</h2>
                         <p>this is a place where i leave a little bit of my soul available on the web for you to enjoy.</p>
-                        <p>select one of the tabs, click on the title to go back to this homescreen.</p>
+                        <p>select one of the tabs, or click on the title to go back to this homescreen.</p>
                         <h3>thank you</h3>
                     </>
                 } />
