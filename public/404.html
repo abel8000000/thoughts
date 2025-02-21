@@ -2,19 +2,6 @@
 <html>
   <head>
     <meta http-equiv="refresh" content="0; url=/thoughts/#/" />
-    <script>
-      // This script ensures that the correct URL is preserved
-      // after the redirect to index.html
-      var pathname = window.location.pathname.replace(/^\/thoughts/, '');
-      var search = window.location.search;
-      var hash = window.location.hash;
-      if (pathname === '/index.html') {
-        // Prevent infinite loop by not redirecting if already on index.html
-        window.location.replace('/thoughts' + search + hash);
-      } else {
-        window.location.replace('/thoughts/index.html' + pathname + search + hash);
-      }
-    </script>
   </head>
   <body></body>
 </html>
