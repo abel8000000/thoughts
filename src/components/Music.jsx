@@ -25,11 +25,6 @@ function Music() {
     };
   });
 
-  <Link to={`/music/${album.slug}/`}>
-    {album.cover && <img src={album.cover} alt={`${album.title} cover`} width="100" />}
-    <p className='anchor'>{album.title}</p>
-  </Link>
-
   useEffect(() => {
     if (album) {
       // Convert underscore back to space for matching the file name
@@ -60,7 +55,7 @@ function Music() {
           <ul className="album-grid">
             {albums.map((album) => (
               <li key={album.name} className="album-item">
-                <Link to={`/music/${album.name}/`}>
+                <Link to={`/music/${album.slug}/`}>
                   {album.cover && <img src={album.cover} alt={`${album.title} cover`} width="100" />}
                   <p className='anchor'>{album.title}</p>
                 </Link>
