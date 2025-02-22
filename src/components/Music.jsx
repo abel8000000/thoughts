@@ -12,21 +12,31 @@ function Music() {
   const [content, setContent] = useState('');
   const { album } = useParams();
 
+  // Convert album name to a slug with underscores
   const albums = markdownFiles.keys().map((file) => {
     const albumName = file.split('/')[1];
+    const slug = albumName.replace(/\s+/g, '_'); // Replace spaces with underscores
     const cover = coverImages.keys().find((coverFile) => coverFile.includes(albumName));
     return {
-      name: albumName,
+      name: albumName, // original name for fetching
+      slug,          // slug used in the URL
       title: albumName,
       cover: cover ? `${process.env.PUBLIC_URL}/music/${albumName}/${cover.split('/').pop()}` : null,
     };
   });
 
+  <Link to={`/music/${album.slug}/`}>
+    {album.cover && <img src={album.cover} alt={`${album.title} cover`} width="100" />}
+    <p className='anchor'>{album.title}</p>
+  </Link>
+
   useEffect(() => {
     if (album) {
-      const markdownFile = markdownFiles.keys().find((file) => file.includes(album));
+      // Convert underscore back to space for matching the file name
+      const albumName = album.replace(/_/g, ' ');
+      const markdownFile = markdownFiles.keys().find((file) => file.includes(albumName));
       if (markdownFile) {
-        const filePath = `${process.env.PUBLIC_URL}/music/${album}/${markdownFile.split('/').pop()}`;
+        const filePath = `${process.env.PUBLIC_URL}/music/${albumName}/${markdownFile.split('/').pop()}`;
         fetch(filePath)
           .then((response) => {
             if (!response.ok) {
