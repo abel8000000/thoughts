@@ -62,7 +62,7 @@ function Music() {
               </li>
             ))}
           </ul>
-          <div className="more-on-the-way">don't worry, more on the way</div>
+          <div className="more-on-the-way">don't worry, (many) more on the way</div>
         </div>
       )}
     </div>
