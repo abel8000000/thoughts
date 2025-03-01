@@ -1,4 +1,4 @@
-<h1 class="album-page-title">Discovey</h1>
+<h1 class="album-page-title">Discovery</h1>
 <h2 class="album-page-author">by Daft Punk</h2>
 <iframe class="album-page-video" width="512px" height="512px" src="https://www.youtube.com/embed/UKYWWfR_GKA?si=J-x1VGOL_YJNyx9X" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
 
