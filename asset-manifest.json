@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/thoughts/static/css/main.2dc10790.css",
-    "main.js": "/thoughts/static/js/main.8ac2d927.js",
+    "main.js": "/thoughts/static/js/main.224be336.js",
     "static/js/453.a234e9e5.chunk.js": "/thoughts/static/js/453.a234e9e5.chunk.js",
     "static/media/background.jpg": "/thoughts/static/media/background.1e4a5589ce4a3553a028.jpg",
     "static/media/Raleway-VariableFont_wght.ttf": "/thoughts/static/media/Raleway-VariableFont_wght.d8040b0cc740dda7550a.ttf",
@@ -9,7 +9,9 @@
     "static/media/cover.jpg": "/thoughts/static/media/cover.ff0d3ccfa83f5789bc33.jpg",
     "static/media/NEUROPOL.ttf": "/thoughts/static/media/NEUROPOL.da56b5bd971d7cedd68e.ttf",
     "static/media/BRAT.md": "/thoughts/static/media/BRAT.79e072c5b01d2b7a4159.md",
+    "static/media/The College Dropout.md": "/thoughts/static/media/The College Dropout.d0fea1a575bbc6c7d0d3.md",
     "static/media/Discovery.md": "/thoughts/static/media/Discovery.6dfc0d5ef6f85a3c2fe4.md",
+    "static/media/loveless.md": "/thoughts/static/media/loveless.c528861db383225c8468.md",
     "static/media/Dawn FM.md": "/thoughts/static/media/Dawn FM.bdcf31e1df0fd67357b3.md",
     "static/media/Unknown Death 2002.md": "/thoughts/static/media/Unknown Death 2002.2ed4d110b7bcd4a0751b.md",
     "static/media/To Pimp a Butterfly.md": "/thoughts/static/media/To Pimp a Butterfly.24d1d34e5a3fad62b95b.md",
@@ -18,11 +20,11 @@
     "static/media/IGOR.md": "/thoughts/static/media/IGOR.f919a24ef12c47693b5b.md",
     "index.html": "/thoughts/index.html",
     "main.2dc10790.css.map": "/thoughts/static/css/main.2dc10790.css.map",
-    "main.8ac2d927.js.map": "/thoughts/static/js/main.8ac2d927.js.map",
+    "main.224be336.js.map": "/thoughts/static/js/main.224be336.js.map",
     "453.a234e9e5.chunk.js.map": "/thoughts/static/js/453.a234e9e5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2dc10790.css",
-    "static/js/main.8ac2d927.js"
+    "static/js/main.224be336.js"
   ]
 }
